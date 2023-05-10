@@ -1,0 +1,1 @@
+gunicorn --bind=0.0.0.0 --wrokers=4 flask run -p 80
